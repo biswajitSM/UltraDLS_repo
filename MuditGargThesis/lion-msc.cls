@@ -184,7 +184,7 @@
 \gdef\@studentid{\color{red}use $\backslash$\texttt{studentid\{\ldots\}} to define}
 \gdef\@abstract{\color{red}Please use $\backslash$\texttt{abstract\{\ldots\}} to define an abstract in the document preamble.}
 \gdef\@supervisor{\color{red}use $\backslash$\texttt{supervisor\{\ldots\}} to define}
-\gdef\@corrector{\color{red}use $\backslash$\texttt{corrector\{\ldots\}} to define}
+\gdef\@dsupervisor{\color{red}use $\backslash$\texttt{Daily Supervisor\{\ldots\}} to define}
 \gdef\@affiliation{\color{black}Huygens-Kamerlingh Onnes Laboratory, Leiden University}
 \gdef\@address{\color{black}P.O. Box 9500, 2300 RA Leiden, The Netherlands}
 \gdef\@degree{\color{black}Bachelor of Science}
@@ -193,7 +193,7 @@
 \def\studentid#1{\gdef\@studentid{#1}}
 \def\abstract#1{\gdef\@abstract{#1}}
 \def\supervisor#1{\gdef\@supervisor{#1}}
-\def\corrector#1{\gdef\@corrector{#1}}
+\def\dsupervisor#1{\gdef\@dsupervisor{#1}}
 \gdef\affiliation#1{\gdef\@affiliation{#1}}
 \gdef\address#1{\gdef\@address{#1}}
 \gdef\degree#1{\gdef\@degree{#1}}   % 22/05/2014 corrected mix-up of degree and major: Error spotted by Leandros Talman
@@ -204,7 +204,7 @@
 % Optional cover picture
 \def\coverpicture#1{\gdef\@coverpicture{#1}\cover@picturetrue}
 % New if construct:             Default condition:
-\newif\ifcover@picture          \cover@picturefalse
+\newif\ifcover@picture         % \cover@picturefalse
 
 
 % == start : title page using titling package
@@ -227,6 +227,7 @@
 \posttitle{
         \noindent\rule{\textwidth}{0.4mm}
         \vfill
+         \vskip 0.4em
         \ifcover@picture
          \@coverpicture
         \fi
@@ -239,17 +240,17 @@
             \color{black}
             \begin{center}
                 \normalsize
-                \textsc{Thesis} \\ \vskip 0.5em
-                submitted in partial fulfillment of the \\
-                requirements for the degree of \\ \vskip 0.5em
+                \textsc{Report} \\ \vskip 0.5em
+                submitted at the completion of \\
+                \vskip 0.5em
                 \textsc{\@degree} \\
-                in \\
+                at \\
                 \textsc{\@major} \\ \vskip 0.5em
             \normalsize
             Author :             \hfill {\@author} \\
-            Student ID :         \hfill {\@studentid} \\
             Supervisor :         \hfill {\@supervisor} \\
-            2$^{nd}$ corrector : \hfill {\@corrector}
+            Daily Supervisor : \hfill {\@dsupervisor} \\
+            Duration :         \hfill {\@studentid} \\
             \par
             \vskip 1em
             Leiden, The Netherlands, \@date
@@ -262,7 +263,7 @@
 \preauthor{
     \thispagestyle{empty}
     \begin{center}
-        \Huge \@title \\
+        %\Huge \@title \\
         \vskip 1 em
         \color{black}
         \large \bf
