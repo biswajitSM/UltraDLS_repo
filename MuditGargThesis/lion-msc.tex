@@ -8,7 +8,7 @@
 
 %\affiliation{Huygens-Kamerlingh Onnes Laboratorium, Universiteit Leiden}   % experimental physics in Dutch
 %\affiliation{Instituut-Lorentz, Universiteit Leiden}                       % theoretical physics in Dutch
-
+\id{Senior Undergraduate}
 \address{New Delhi, India, 110016}               % default address - uncomment if need be
 
 % \newdate{date}{\day}{\month}{\year}           % definition of time and date using datetime package
@@ -16,7 +16,7 @@
 %\date{\displaydate{date}}
 
 \studentid{May-July 2017}                           % check you student ID, LaTeX does not do this
-\abstract{In this Internship I used Fluroscene Spectrscopy to observe the Gold nanorods as they intract with their nearby particles like protein,silica etc.}     % limit your self to 1/2 page or 500 words
+\abstract{}     % limit your self to 1/2 page or 500 words
 \supervisor{Prof. Dr. Michel Orrit}                         % Note that this should be a LION staff member!
 \dsupervisor{Biswajit Pradhan}                      % This could be a LION staff member or your external supervisor
 
@@ -52,6 +52,7 @@
 % roman numbering in the table of contents section
 \pagenumbering{roman}
 
+
 \maketitle
 
 % Table of contents :  it is a good idea to include this into your thesis
@@ -68,17 +69,9 @@
 % in the main part of the document use standard arabic numbers. Page counter resets to 1.
 \pagenumbering{arabic}
 
-\chapter{Description of the document class \textrm{lion-msc}}
+\chapter{Introduction}
 
-This chapter describes the \textrm{lion-msc} document class. The aim of this document class is to assist staff, students and the university administration with the creation of bachelor and master theses. By using this document class we create a document that has a first page that contains all required information such as title, author, student ID, supervisor, second corrector etc.
-
-Some of the compulsory features are standardized, many other have default values. More experienced \LaTeX users can easily modify the feel and look of the document, but should try not too modify the first pages of the thesis. This is the page that should be handed in to the university administration that keeps this on file together with the grade given by the staff member of the physics department.
-
-At a later stage all bachelor and master theses will be placed in an online repository that is, in principle, publicly available. This repository will look better (more professional) if the first pages and layout of theses is similar.
-
-The use of a specialized document class is a method that is used by many scientific journals to ensure that all submitted articles contain all necessary information. Publishers only accept articles that are typeset according to certain rules. \LaTeX style files and templates are often provided to help authors to comply with the style of the journal.
-
-Currently the document class is still under active development and will be improved. If you use this style to typeset your thesis please do check frequently for updates of the files \textrm{lion-msc.cls} and the associated bibliography style file \textrm{lion-msc.bst}.
+In this Internship I used Fluroscene Spectrscopy to observe the Gold nanorods as they intract with their nearby particles like protein,silica etc.
 
 \section{Getting Started}
 
@@ -254,13 +247,12 @@ The next thing to do is to set the document class to a local layout and choose f
 
 Documents $\rhd$ Settings $\rhd$ Document Class $\rhd$ Local-layout
 
-\include{AlexanderPRA}
+\chapter{Mathematical model}
 
+\chapter{Results and Discussion}
 %\appendix
 %\include{appa}
-
-\section*{Acknowledgements}
-This research was made possible by financial support from the Dutch Association for Scientific Research (NWO) and the Foundation for Fundamental Research of Matter (FOM).
+\
 
 \bibliographystyle{lion-msc}
 \bibliography{4photon}

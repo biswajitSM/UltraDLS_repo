@@ -182,6 +182,7 @@
 
 % == start : define several variables to be placed on the titlepage
 \gdef\@studentid{\color{red}use $\backslash$\texttt{studentid\{\ldots\}} to define}
+\gdef\@id{\color{red}use $\backslash$\texttt{studentid\{\ldots\}} to define}
 \gdef\@abstract{\color{red}Please use $\backslash$\texttt{abstract\{\ldots\}} to define an abstract in the document preamble.}
 \gdef\@supervisor{\color{red}use $\backslash$\texttt{supervisor\{\ldots\}} to define}
 \gdef\@dsupervisor{\color{red}use $\backslash$\texttt{Daily Supervisor\{\ldots\}} to define}
@@ -191,6 +192,7 @@
 \gdef\@major{\color{black}Physics}
 
 \def\studentid#1{\gdef\@studentid{#1}}
+\def\id#1{\gdef\@id{#1}}
 \def\abstract#1{\gdef\@abstract{#1}}
 \def\supervisor#1{\gdef\@supervisor{#1}}
 \def\dsupervisor#1{\gdef\@dsupervisor{#1}}
@@ -272,7 +274,7 @@
 \postauthor{
     \end{center}
     \begin{center}
-        \normalsize \@affiliation \\ \@address
+        \normalsize \@id \\ \@affiliation \\ \@address
         \lineskip 0.5em
         \par
     \end{center}
@@ -300,7 +302,7 @@
     \end{center}
     \begin{center}
     \vskip 1 em
-    \color{black} \large \textbf{Abstract} \\
+    \color{black} \large \textbf{Acknowledgement} \\
                 \vskip 1em
                 \normalsize \@abstract
     \end{center}
