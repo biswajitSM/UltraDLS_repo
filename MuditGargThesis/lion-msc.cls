@@ -300,12 +300,13 @@
 % Following comments of Casper Remeijer
 \postdate{
     \end{center}
+     \vskip 2em
     \begin{center}
-    \vskip 1 em
     \color{black} \large \textbf{Acknowledgement} \\
-                \vskip 1em
-                \normalsize \@abstract
     \end{center}
+     \begin{flushleft}
+                \normalsize \@abstract
+    \end{flushleft}
     \vfill
 }
 % == end   : title page using titling package
@@ -332,30 +333,30 @@
 %% IMPORTANT NOTE: The references consist of one big list with many \bibitems...
 %% VERY IMPORTANT: \def\bibname should be within the thebibliography environment.
 %%                 It seems to be defined elsewhere as well (BibTeX?)
-%\newdimen\bibindent
-%\setlength\bibindent{1.5em}
-%\renewenvironment{thebibliography}[1]
-%    {\def\bibname{References}
-%     \chapter*{\bibname
-%        \@mkboth{\textsc\bibname}{\textsc\bibname}}%
-%      \list{\@biblabel{\@arabic\c@enumiv}}%
-%           {\itemsep 0em
-%            \settowidth\labelwidth{\@biblabel{#1}}%
-%            \leftmargin\labelwidth
-%            \advance\leftmargin\labelsep
-%            \@openbib@code
-%            \usecounter{enumiv}%
-%            \let\p@enumiv\@empty
-%            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
-%      \sloppy
-%      \clubpenalty4000
-%      \@clubpenalty \clubpenalty
-%      \widowpenalty4000%
-%      \sfcode`\.\@m}
-%     {\def\@noitemerr
-%       {\@latex@warning{Empty `thebibliography' environment}}%
-%      \endlist}
-%% == end   : Bibliography name changed to References
+\newdimen\bibindent
+\setlength\bibindent{1.5em}
+\renewenvironment{thebibliography}[1]
+    {\def\bibname{References}
+     \chapter*{\bibname
+        \@mkboth{\textsc\bibname}{\textsc\bibname}}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\itemsep 0em
+            \settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+     \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+
 
 % == start : appearance of footnotes
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -364,7 +365,6 @@
 % == start : remove dots in TOC.
 \renewcommand{\@dotsep}{10000} %% Default value is 4.5
 % == end   : remove dots in TOC
-
 % == start : definition of headers
 % 28/03/2014 - removed font change in the headers and footers.
 
