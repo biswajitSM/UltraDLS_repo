@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: lion-msc.aux
+The style file: lion-msc.bst
+Database file #1: Thesis.bib
+Warning--entry type for "AuNR2" isn't style-file defined
+--line 14 of file Thesis.bib
+You've used 4 entries,
+            1872 wiz_defined-function locations,
+            450 strings with 3532 characters,
+and the built_in function-call counts, 790 in all, are:
+= -- 50
+> -- 40
+< -- 0
++ -- 13
+- -- 9
+* -- 71
+:= -- 108
+add.period$ -- 4
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 39
+empty$ -- 83
+format.name$ -- 12
+if$ -- 180
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 3
+newline$ -- 19
+num.names$ -- 3
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 37
+stack$ -- 0
+substring$ -- 33
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 6
+width$ -- 5
+write$ -- 33
+(There was 1 warning)
