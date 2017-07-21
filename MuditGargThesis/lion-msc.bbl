@@ -1,10 +1,10 @@
 \begin{thebibliography}{1}
 
-\bibitem{AuNR1}
-V.~Wulf, F.~Knoch, T.~Speck, and C.~S{\"o}nnichsen, {\em Gold Nanorods as
-  Plasmonic Sensors for Particle Diffusion},
-\newblock The Journal of Physical Chemistry Letters {\bf 7}, 4951 (2016),
-\newblock PMID: 27934054.
+\bibitem{AuNR4}
+P.~Zijlstra, P.~M.~R. Paulo, and M.~Orrit, {\em Optical detection of single
+  non-absorbing molecules using the surface plasmon resonance of a gold
+  nanorod},
+\newblock Nat Nano {\bf 7}, 379 (2012).
 
 \bibitem{AuNR2}
 {\em
@@ -16,10 +16,10 @@ E.~Haustein and P.~Schwille, {\em {Fluorescence Correlation Spectroscopy: Novel
 \newblock Annual Review of Biophysics and Biomolecular Structure {\bf 36}, 151
   (2007).
 
-\bibitem{AuNR4}
-P.~Zijlstra, P.~M.~R. Paulo, and M.~Orrit, {\em Optical detection of single
-  non-absorbing molecules using the surface plasmon resonance of a gold
-  nanorod},
-\newblock Nat Nano {\bf 7}, 379 (2012).
+\bibitem{AuNR1}
+V.~Wulf, F.~Knoch, T.~Speck, and C.~S{\"o}nnichsen, {\em Gold Nanorods as
+  Plasmonic Sensors for Particle Diffusion},
+\newblock The Journal of Physical Chemistry Letters {\bf 7}, 4951 (2016),
+\newblock PMID: 27934054.
 
 \end{thebibliography}
