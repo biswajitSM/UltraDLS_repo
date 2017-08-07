@@ -27,7 +27,7 @@ Also I  would like to express my gratitude toward  \textbf{Prof. R.K. Soni}, the
 \degree{Research Internship}                     % The default option is "Bachelor of Science", change if needed
 
 
-\major{Single-Molecule Group,LION}                  % The default option is "Physics", change if needed
+\major{Single-Molecule Optics Group,LION}                  % The default option is "Physics", change if needed
 %\major{Physics and Mathematics}
 
 % optional cover picture - should be jpg or pdf
@@ -77,65 +77,65 @@ Also I  would like to express my gratitude toward  \textbf{Prof. R.K. Soni}, the
 
 \chapter{Introduction}
 
-In this Internship I've used Fluorescence Correlation Spectroscopy to observe the single Gold nanorods(AuNR) as they interact with their nearby particles like proteins,silica nanoparticles.\cite{AuNR1} .I first learned how to operate the system and how to make samples for the system.Then I learned how to take spectrum using luminescence with the help of 532nm green laser.By analyzing the spectrum I used appropriate AuNR to take their spectrum image with 660nm cobalt laser. Then I introduces BSA of different concentration. in environment of AuNR .I took time traces using two APDs and try to observe some bursts in that. There were some problems which I will discuss in Result section.
-
+The determination of size of small biomolecules like protein is important in biochemical and pharmaceutical studies. Dynamic light scattering(DLS) is usually used to  measure the sizes of colloidal nanoparticles. But the determination of sizes of small biomolecules by DLS is not very reliable. Surface plasmon resonance(SPR) of nanophotonics structures like gold nanorod(AuNR), bipyramid is sensitive to the refractive index of its local environment. Single protein can be detected using the shift in SPR of nanostructures\cite{AuNR4}. Here in this project we used scattering intensity of AuNR to detect freely diffusing protein. We intend to measure size and concentration of protein from the correlation of scattered intensity of AuNR.
 \chapter{Theory}
 
 \section{Fluorescence}
-Fluorescence is the property of substance where it absorbs light at certain  wavelength and emit light at relatively longer wavelength,Therefore have lower energy than the absorbed one.Molecule is termed as fluorophores or fluorescent dyes.It happens in three stages : First Excitation then Excited state Lifetime and finally Fluorescence Emission.This is displayed using Jablonski diagram.More details are in this reference \cite{AuNR2} \\
-\\
-\begin{center}
-\includegraphics[scale=1]{2.png}\\
-Jablonski diagram:Three stages of Fluorescence \cite{AuNR2} 
-\end{center}
+Fluorescence is the property of substance where it absorbs light at certain  wavelength and emit light at relatively longer wavelength,Therefore have lower energy than the absorbed one. The molecule is termed as fluorophore or fluorescent dye. It happens in three stages : First excitation then vibrational relaxation and finally fluorescence emission. This is displayed using Jablonski diagram.
+
+\begin{figure}[H]
+\includegraphics[width=.5\textwidth,center]{2}
+\caption  {Jablonski diagram illustrating the three stages of fluorescence.In the first stage photon of energy $h\nu_{EX}$ is supplied by laser and absorbed by  fluorophore, which results in excited electronic singlet state ${S_1}'$.Then it stays in that state for finite duration(1-10 ns).In second stage, flurophores undergoes conformational changes which results in partial dissipation which yields relaxed singlet excited stage $S_1$. In final stage a photon of energy $h\nu_{EM}$ emits returning the flurophores back to $S_0$. \cite{AuNR2}}
+\end{figure}
+
+The emitted photon has less energy then the absorbed one. The difference $h\nu_{EX}-h\nu_{EM}$ is called stokes shift. Stokes shift allows the emission photons to be detected against a low background, which can be easily separated from excitation laser.
 
 \section{Fluorescence Correlation Spectroscopy}
-Fluorescence Correlation Spectroscopy(FCS) is a technique which can be used to monitor single molecule using specific optical setup with an inverted confocal microscope.In this setup we send laser beam to this microscope's objective via Beam splitter,which focus on the sample.Then we gather the fluorescence light form this and send it to pin hole and via emissions filters and beam splitter which use few nanomolars of fluorescence in order to detect single molecule.Then we use two APD detectors which are getting light from 50/50 beam splitter then take their cross correlation.Formula for normalized autocorrelation of intensity i.e. I(t) is :
+Fluorescence Correlation Spectroscopy(FCS) is a technique which can be used to monitor single molecule using a confocal microscope. In this setup we send laser beam to this microscope's objective via Beam splitter,which is focus to its diffraction limited volume on the sample. Then we collect the fluorescence light form this and send it to pin hole. This goes through emissions filters and beam splitter and finally to detectors. Few nanomolars of fluorescence are used in order to detection of single molecule.  The formula for normalized autocorrelation of intensity traces I(t) is :
 $$
 G(\tau) = \frac{\langle{I(t)}\cdot{I(t+\tau)}\rangle}{\langle{I(t)}\rangle^2} 
 $$
 and if we define $\delta{I(t)} = I(t) - \langle{I(t)}\rangle$ then $G(\tau)$ can be written as :
-$$
+$$	
 G(\tau) = \frac{\langle\delta{I(t)}\cdot\delta{I(t+\tau)}\rangle}{\langle{I(t)}\rangle^2} +1
 $$
 It is given in more details in reference \cite{AuNR3}
 
+\newpage
+\section{Scattering Correlation Spectroscopy(SCS}
+In SCS technique\cite{AuNR1}, we monitor the scattered intensity from immobilized single AuNR. We use flow cell to control the environment of the AuNR. Then we introduce diffusers such as small gold.We measure the intensity of the AuNR as diffusers enter and leaves in its vicinity. Then we take autocorrelation of intensity I(t) to find out diffusion coefficient D. Then using stokes einstein relation $ D = \frac{k_B{T}}{6\pi\eta{r}}$ we can find viscosity and diffuser conc. of other diffusers if we know it for one using their respective D.
 
-\section{Scattering Correlation Spectroscopy}
-In this technique\cite{AuNR1} we monitor an immobilized single AuNR using scattering from the white light using the TIE configuration.We use flow cell to control the environment of the AuNR. Then we introduce diffusers such as small gold.We measure the shift in spectra of the AuNR as diffusers enter and leaves in its vicinity.Then we take autocorrelation of $\lambda(t)$ in to find out diffusion coefficient D.Then using stokes einstein relation $ D = \frac{k_B{T}}{6\pi\eta{r}}$ we can find viscosity and diffuser conc. of other diffusers if we know it for one using their respective D.
-$$
-G(\tau) -1= \frac{\langle\delta\lambda(t) \cdot\delta\lambda(t+\tau) \rangle}{\langle{\lambda(t)}\rangle^2}
-$$
 \begin{figure}[H]
 \includegraphics[width=1\textwidth,left]{13}
-Shift in spectrum \& correlation due to protein in the vicinity of AuNR\cite{AuNR4}
+\caption {Protein is diffusing freely in the solution,Dotted line shows the spectrum of AuNR and solid line shows a shift in SPR whenever protein comes near the tip of AuNR.There are bursts in the time trace whose autocorrelation shows clear decay. The correlation decay time should change as a function of the size( $R_h$) of the molecule \cite{AuNR4}}
 \end{figure}
 
 \begin{figure}[H]
 \includegraphics[width=1\textwidth,left]{9}
+\caption {Laser is at an angle $\theta$ with axis of AuNR and perpendicular to analyzer which is extinguishing the reflection part (
+$ I_{reflection} = I_{L}\cdot\cos90^{\circ} = 0$) .so only scattering along the axis survive and result in final intensity.}
 \end{figure}
-
-Laser is at an angle $\theta$ with axis of AuNR and perpendicular to analyzer which is extinguishing the reflection part (
-$ I_{reflection} = = I_{L}\cdot\cos90^{\circ} = 0$) .so only scattering along the axis survive and result in final intensity.
 $$
-I_{total} = Reflection+AuNR-scat = 0 +   I_{scatAuNR}\cdot\cos(90^{\circ}-\theta)
+I_{total} = Reflection+AuNRscat = 0 +   I_{scatAuNR}\cdot\cos(90^{\circ}-\theta)
 $$
 $$
 I_{total} = I_{scatAuNR}\cdot\sin(\theta)
 $$
-\section{Procedure}
+The angle $\theta$ can be varied to get better signal fluctuation \& hence correlation
+
+\chapter{Experiment}
 This is my full procedure in the internship:
-\begin{enumerate}[A.]
-\item \textbf{Sample Preparation}
+
+\section{Sample Preparation}
  \begin{enumerate}[I]
    \item I first prepared sample using stock AuNR solution which were coated with CTAB to avoid aggregates
-   \item I only chose those solution which have surface plasmon resonance around 650 so that they right swing at 660nm.
+   \item I only chose those solution which have surface plasmon resonance around 650 so that they right wing at 660 nm.
    \item then remove CTAB using centrifugation.This is necessary so that AuNR could stuck glass slides.
    \item then I sonicated the sample to avoid aggregates.
    \end{enumerate}
-   \item \textbf{Putting AuNRs on glass slide}
+  \section{Putting AuNRs on glass slide}
    \begin{enumerate}[I]
-   \item After that I used two different things to put AuNR sample
+   \item After that I used two different way to prepare AuNR sample
    \begin{enumerate}[i]
    \item Flow cell with rectangular slide
    \item Circular holder with circular slides
@@ -143,89 +143,92 @@ This is my full procedure in the internship:
    \item Also used two different procedure for introducing AuNR to glass slides
    \begin{enumerate}[i]
    \item Spin coating method 
-   \item Flowing AuNR solution into flow cell
+   \item Immobilization on thilated surface
    \end{enumerate}
    \end{enumerate}
-   \item \textbf{Experimenting}
+  \section{Microscopy}
      \begin{enumerate}[I]
-   \item So I used this setup for experimenting
+   \item  So I used this setup for experimenting
    \begin{figure}[H]
 \includegraphics[width=1.1\textwidth,left]{10}
 \begin{flushleft}
-In this Experimental setup laser is going through polarizer then using 50/50 beam splitter going to AuNR though microscope and coming back through analyzer which is then again splitting by 50/50 beam splitter to APDs. 
+\caption{In this Experimental setup laser is going through polarizer then using 50/50 beam splitter going to AuNR though microscope and coming back through analyzer which is then again splitting by 50/50 beam splitter to APDs. }
 \end{flushleft}
 \end{figure}
-   \item I took scattering image using 660nm red laser at focus for finding out positions of AuNR.
-   \item Then I took spectrum using 532nm green laser for those AuNR which were excited by 660nm.
-   \item After doing this process I chose those AuNRs which had SPR either right swing or left wing at 660nm.
-   \item then I passivated the AuNRs with either Thioglycolic acid or Cysteamine to avoid physical contact between protein and AuNR.
-   \item Then after leaving it for overnight I introduces different conc. of BSA protein.
-   \item Took their time traces using two APDs.
+   \item I took scattering image using 660 nm red laser at focus for finding out positions of AuNR.
+   \item Then I took spectrum using 532nm green laser for those AuNR which were visible by 660 nm.
+   \item After doing this process I chose those AuNRs which had SPR either right wing or left wing at 660 nm.
+   \item then I passivated the AuNRs with either Thioglycolic acid or Cysteamine to avoid nonspecific sticking between protein and AuNR.
+   \item Then after leaving it for overnight I introduced different concentrations of BSA protein.
+   \item Took their time traces using signal form the two APDs.
    \end{enumerate}
-   \item \textbf{Analysis}
+   \section{Analysis}
    \begin{enumerate}[I]
-   \item I found out their cross correlations using time traces in order to find diffusion time.
+   \item I calculated their cross correlations using intensity traces in order to find diffusion time.
    \item and finally using Stokes Einstein relation to find out size of protein.
     \end{enumerate}
-   \end{enumerate}
+  
 \chapter{Results and Discussion}
 
-As I laid out in my procedure in previous chapters,I was not able to achieve them perfectly this was due to these things:
-\begin{enumerate}
-\item Time constraint of my internship
-\item initially laser wasn't stable
-\item Not able to prevent attaching of BSA to AuNR
-\end{enumerate}
-Due to this time constraint I spent my initial time learning the technique and how to make samples.After that we found out that our 670nm laser is not stable,so we ordered a new one 660nm cobalt laser but even after accelerating the procedure it took 3 weeks to arrive.even after finally setting up the laser which was stable.we weren't able to avoid attaching of BSA even after the passivation.So I would like to share my two days of result in which laser was stable.So in first case I passivated with 20$\mu$M Cysteamine and in second case with 100 $\mu$M Thioglycolic acid.
+So I would like to share my two days of result in which laser was stable.So in first case I passivated with 20$\mu$M Cysteamine and in second case with 100 $\mu$M Thioglycolic acid.
 
 \section{Passivation with 20$\mu$M Cysteamine}
-\begin{center}
-\includegraphics[scale=.75]{3.png}\\
-Numbering according to order of taking spectrum
-\end{center}
+\begin{figure}[H]
+\includegraphics[width=.6\textwidth,center]{3.png}\\
+\caption {660 nm scattering image of 20$\mu$m$\times$20$\mu$m area passivated with Cysteamine.Numbering according to order of taking spectrum}
+\end{figure}
 Out of these fifteen only ten i.e. 2,3,5,6,8,10,12,13,14,15 had right spectrum.
 then I introduced 100nM BSA.Then took 300 second time traces.After doing that I again took the spectra and found out that there was a shift of 2-3nm in SPR and decrease of around 1nm in FWHM.
-\begin{center}
-\includegraphics[scale=.6]{4.png}\\
-Change in Spectrum before and after introduction of BSA
-\end{center}
+\begin{table}[H]
+\includegraphics[width=1\textwidth,center]{4.png}\\
+\caption {There is a redshift in SPR of every AuNR after adding BSA and also a decrease in FWHM.This shows that BSA is sticking to the AuNR}
+\end{table}
+\newpage
 I would particularly discuss one of the AuNR which was showing some correlation i.e. AuNR6
-\begin{figure}[h]
-\includegraphics[width=.8\textwidth,center]{11}
+\begin{figure}[H]
+\includegraphics[width=1\textwidth,center]{11}
 \begin{center}
-Time Trace of 6 before and after BSA.As we can see from time traces that due to BSA there are fluctuations in this
+\caption {Time Trace of AuNR6 before and after BSA.As we can see from time traces that due to BSA there are more fluctuations in same period which shows that scattering intensity is sensitive to protein sticking}
 \end{center}
 \end{figure}
-\begin{figure}[h]
-\includegraphics[width=.8\textwidth,center]{12}
+\begin{figure}[H]
+\includegraphics[width=.6\textwidth,center]{12}
 \begin{center}
-FCS correlations of AuNR6 before and after BSA.There is some correlation due to the some sticking of BSA
+\caption {FCS correlations of AuNR6 before and after BSA.There is some correlation due to the some sticking of BSA. The correlation time is 1.8ms which is very different from the expected value of 10 s of $\mu$sec. This longer time can be attributed to the sticking of the protein.}
 \end{center}
 \end{figure}
 
-\begin{figure}[h]
-\includegraphics[width=.8\textwidth,center]{7}
+\begin{figure}[H]
+\includegraphics[width=.6\textwidth,center]{7}
 \begin{center}
-Spectrum shift in AuNR6 before and after BSA.
+\caption {Spectrum shift in AuNR6 before and after adding BSA to AuNR environment.There is redshift of 2nm in SPR which tells us that there is sticking of BSA to AuNR.}
 \end{center}
 \end{figure}
-\section{Passivation with 100$\mu$M Cysteamine}
-\begin{center}
-\includegraphics[scale=.75]{6.png}\\
-Numbering according to order of taking spectrum
-\end{center}
+\section{Passivation with 100$\mu$M Thioglycolic acid}
+\begin{figure}[H]
+\includegraphics[width=.6\textwidth,center]{6.png}\\
+\caption {660 nm scattering image of 20$\mu$m$\times$20$\mu$m area passivated with Thioglycolic acid.Numbering according to order of taking spectrum}
+\end{figure}
 Out of these fourteen only nine i.e. 1,3,4,6,7,10,11,12,13 had right spectrum.
 then I introduced 1nM BSA.Then took 600 second time traces.After doing that I again took the spectra and found out that there was a shift of 2-3nm in SPR and but his time increase of around 1nm in FWHM.
-\begin{center}
+\begin{table}[H]
 \includegraphics[scale=.6]{5.png}\\
-Change in Spectrum before and after introduction of BSA
-\end{center}
+\caption {There is a redshift in SPR of every AuNR after adding BSA and also a decrease in FWHM.This shows that BSA sticking to AuNR}
+\end{table}
+
+As I laid out in my in previous discussion,I was not able to achieve proper correlation due to the following reasons.
+\begin{enumerate}
+\item Initially laser wasn't stable which gave is erroneous results.
+\item Not able to prevent sticking of BSA to AuNR
+\item Time constraint of my internship
+\end{enumerate}
+Due to this time constraint I spent my initial time learning the technique and how to make samples.After that we found out that our 670 nm laser is not stable,so we ordered a new one 660nm cobalt laser but even after accelerating the procedure it took 3 weeks to arrive.even after finally setting up the laser which was stable.we weren't able to avoid attaching of BSA even after the passivation.
 
 \section{Conclusion}
-First conclusion is that we're experimentally able to detect protein sticking with our theory.Second conclusion is that due to only maximum 3-4 \% increase in time trace after introduction of BSA ,FCS correlation is too noisy which hinders our ability to analyze.
+First conclusion is that we're experimentally able to detect protein sticking by scattering measurement. Second conclusion is that due to only a change of 3-4 \% intensity in time trace after introduction of BSA ,FCS correlation is too noisy which hinders our ability to analyze.
  
 \section{Outlook}
-We can use good detectors which have low noises such as photodiode to get better idea from correlations.Also we can passivate AuNR better to avoid sticking with protein.
+We can use good detectors which have low photon noises such as photodiode to get better correlations. Also we can passivate AuNR better to avoid sticking with protein. The polarization angle of excitation laser can be optimized to achieve maximum sensitivity.
 \bibliographystyle{lion-msc}
 \bibliography{Thesis}
 

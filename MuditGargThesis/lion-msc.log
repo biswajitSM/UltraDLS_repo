@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.9.18)  20 JUL 2017 19:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.9.18)  21 JUL 2017 16:30
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **lion-msc.tex
 (./lion-msc.tex
@@ -783,13 +782,13 @@ LaTeX Info: Redefining \nameref on input line 56.
 \openout3 = `lion-msc.out'.
 
 
-<lion-msc-logo.pdf, id=48, 68.255pt x 79.29625pt>
+<lion-msc-logo.pdf, id=64, 68.255pt x 79.29625pt>
 File: lion-msc-logo.pdf Graphic file (type pdf)
  <use lion-msc-logo.pdf>
 Package pdftex.def Info: lion-msc-logo.pdf used on input line 63.
 (pdftex.def)             Requested size: 71.13188pt x 82.644pt.
 
-<1.png, id=49, 500.87125pt x 501.875pt>
+<1.png, id=65, 500.87125pt x 501.875pt>
 File: 1.png Graphic file (type png)
  <use 1.png>
 Package pdftex.def Info: 1.png used on input line 63.
@@ -866,195 +865,200 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ]
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 84.
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
-
- []
-
-<2.png, id=105, 276.03125pt x 171.64125pt>
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 83.
+<2.png, id=124, 276.03125pt x 171.64125pt>
 File: 2.png Graphic file (type png)
  <use 2.png>
-Package pdftex.def Info: 2.png used on input line 88.
-(pdftex.def)             Requested size: 276.03056pt x 171.64081pt.
-
-Underfull \vbox (badness 7344) has occurred while \output is active []
-
- [3 <./2.png>] <13.png, id=114, 722.7pt x 542.025pt>
+Package pdftex.def Info: 2.png used on input line 87.
+(pdftex.def)             Requested size: 195.0pt x 121.2585pt.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/sl' in size <10.95> not available
+(Font)              Font shape `OT1/ppl/b/sl' tried instead on input line 88.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 88.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 88.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 88.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 88.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 88.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 88.
+ [3 <./2.png>] [4]
+<13.png, id=144, 722.7pt x 542.025pt>
 File: 13.png Graphic file (type png)
  <use 13.png>
-Package pdftex.def Info: 13.png used on input line 110.
+Package pdftex.def Info: 13.png used on input line 109.
 (pdftex.def)             Requested size: 390.0pt x 292.4989pt.
 
-Underfull \vbox (badness 3907) has occurred while \output is active []
-
- [4]
-<9.png, id=125, 527.9725pt x 309.155pt>
+<9.png, id=147, 527.9725pt x 309.155pt>
 File: 9.png Graphic file (type png)
  <use 9.png>
-Package pdftex.def Info: 9.png used on input line 115.
+Package pdftex.def Info: 9.png used on input line 114.
 (pdftex.def)             Requested size: 390.0pt x 228.36542pt.
- [5 <./13.png> <./9.png>]
-<10.png, id=135, 1027.84pt x 770.88pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./13.png>] [6 <./9.png>]
+Chapter 3.
+
+Overfull \hbox (5.78587pt too wide) in paragraph at lines 133--134
+[]\OT1/ppl/m/n/12 then re-move CTAB us-ing cen-trifu-ga-tion.This is nec-es-sar
+y so that AuNR
+ []
+
+
+Overfull \hbox (4.88625pt too wide) in paragraph at lines 143--144
+[]\OT1/ppl/m/n/12 Also used two dif-fer-ent pro-ce-dure for in-tro-duc-ing AuNR
+ to glass slides 
+ []
+
+<10.png, id=161, 1027.84pt x 770.88pt>
 File: 10.png Graphic file (type png)
  <use 10.png>
 Package pdftex.def Info: 10.png used on input line 153.
 (pdftex.def)             Requested size: 429.00238pt x 321.75598pt.
- [6] [7 <./10.png>] [8]
-Chapter 3.
+ [7
 
-Overfull \hbox (0.47449pt too wide) in paragraph at lines 173--175
-\OT1/ppl/m/n/12 As I laid out in my pro-ce-dure in pre-vi-ous chap-ters,I was n
-ot able to achieve
- []
-
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 181.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 181.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 181.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 181.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 181.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 181.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 181.
-
-<3.png, id=175, 368.1253pt x 366.61969pt>
-File: 3.png Graphic file (type png)
- <use 3.png>
-Package pdftex.def Info: 3.png used on input line 183.
-(pdftex.def)             Requested size: 276.09329pt x 274.96408pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9
+] [8 <./10.png>] [9]
+[10
 
 ]
-<4.png, id=183, 465.74pt x 304.13625pt>
+Chapter 4.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 18.00587pt on input line 175.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 175.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 18.00587pt on input line 175.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 175.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 175.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 175.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 175.
+
+<3.png, id=201, 368.1253pt x 366.61969pt>
+File: 3.png Graphic file (type png)
+ <use 3.png>
+Package pdftex.def Info: 3.png used on input line 177.
+(pdftex.def)             Requested size: 234.00238pt x 233.05264pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+<4.png, id=202, 465.74pt x 304.13625pt>
 File: 4.png Graphic file (type png)
  <use 4.png>
-Package pdftex.def Info: 4.png used on input line 189.
-(pdftex.def)             Requested size: 279.44615pt x 182.48315pt.
+Package pdftex.def Info: 4.png used on input line 183.
+(pdftex.def)             Requested size: 390.0pt x 254.68378pt.
 
-<11.png, id=184, 722.7pt x 867.24pt>
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+[11 <./3.png>] [12 <./4.png>] <11.png, id=215, 722.7pt x 867.24pt>
 File: 11.png Graphic file (type png)
- <use 11.png>
-Package pdftex.def Info: 11.png used on input line 194.
-(pdftex.def)             Requested size: 312.00119pt x 374.40126pt.
 
-<12.png, id=185, 637.38126pt x 719.68875pt>
+<use 11.png>
+Package pdftex.def Info: 11.png used on input line 189.
+(pdftex.def)             Requested size: 390.0pt x 467.99828pt.
+ <12.png, id=216, 637.38126pt x 719.68875pt>
 File: 12.png Graphic file (type png)
  <use 12.png>
-Package pdftex.def Info: 12.png used on input line 200.
-(pdftex.def)             Requested size: 312.00119pt x 352.28818pt.
- [10 <./3.png> <./4.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<7.png, id=192, 800.9925pt x 425.59pt>
+Package pdftex.def Info: 12.png used on input line 195.
+(pdftex.def)             Requested size: 234.00238pt x 264.21614pt.
+ [13 <./11.png>] <7.png, id=224, 800.9925pt x 425.59pt>
 File: 7.png Graphic file (type png)
  <use 7.png>
-Package pdftex.def Info: 7.png used on input line 207.
-(pdftex.def)             Requested size: 312.00119pt x 165.7781pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package pdftex.def Info: 7.png used on input line 202.
+(pdftex.def)             Requested size: 234.00238pt x 124.32709pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 212.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 212.
+(hyperref)                removing `\mu' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 212.
+(hyperref)                removing `math shift' on input line 207.
 
-<6.png, id=193, 369.63094pt x 370.38374pt>
+<6.png, id=225, 369.63094pt x 370.38374pt>
 File: 6.png Graphic file (type png)
  <use 6.png>
-Package pdftex.def Info: 6.png used on input line 214.
-(pdftex.def)             Requested size: 277.2225pt x 277.78711pt.
+Package pdftex.def Info: 6.png used on input line 209.
+(pdftex.def)             Requested size: 234.00238pt x 234.47896pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 215.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 215.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 215.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 215.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 215.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 215.
- [11 <./11.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ []
 
- [12 <./12.png>] [13 <./7.png> <./6.png>] <5.png, id=214, 501.875pt x 279.0425p
-t>
+[14 <./12.png> <./7.png>] <5.png, id=234, 501.875pt x 279.0425pt>
 File: 5.png Graphic file (type png)
-
-<use 5.png>
-Package pdftex.def Info: 5.png used on input line 220.
+ <use 5.png>
+Package pdftex.def Info: 5.png used on input line 215.
 (pdftex.def)             Requested size: 301.12732pt x 167.42679pt.
- (./lion-msc.bbl [14 <./5.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./6.png>] (./lion-msc.bbl [16 <./5.png>] [17] [18
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 []\OT1/ppl/m/it/12 https://www.thermofisher.com/nl/en/home/references/molecular
 -probes-the-
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
- [15
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./lion-msc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `lion-msc.out' has not changed.
-(rerunfilecheck)             Checksum: 7C3F8B67F86CA488295B90375C78111C;688.
+(rerunfilecheck)             Checksum: C0A50CE164BF617CF5B664A322043664;942.
  ) 
 Here is how much of TeX's memory you used:
- 10880 strings out of 493315
- 155505 string characters out of 6137904
- 267898 words of memory out of 5000000
- 14000 multiletter control sequences out of 15000+600000
- 44264 words of font info for 115 fonts, out of 8000000 for 9000
+ 10911 strings out of 493315
+ 155859 string characters out of 6137904
+ 267905 words of memory out of 5000000
+ 14010 multiletter control sequences out of 15000+600000
+ 49057 words of font info for 127 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,15n,45p,947b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,45p,947b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/
 2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/te
 xmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
-/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/urw/times/utmr8a.pfb>
-Output written on lion-msc.pdf (21 pages, 2004807 bytes).
+t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
+/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
+urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/pal
+atino/uplri8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb>
+Output written on lion-msc.pdf (25 pages, 1904693 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
